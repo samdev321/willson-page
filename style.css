@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: #f5fbff;   
+    font-family: 'Roboto', sans-serif;     
+}
+a:link, a:hover{
+    color: rgb(0, 0, 0);
+}
+nav{
+    display:flex;        
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav ul li{    
+    padding: 0 10px;
+    cursor: pointer;
+}
+nav ul li.active{    
+    text-decoration: underline;    
+}
+nav ul li:hover{    
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.img-container{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+}
+.exen-button{
+      text-align: center;
+      font-size: 20px;
+}
+.exen-button button{      
+      font-size: 20px;
+      background-color: #101126;
+      border-radius: 100px;
+      color: white;
+      border: 1px solid white;
+      padding: 15px 30px;
+}
+.coaching-section{
+      font-size: 50px;
+      width: 100%;
+      float: left;
+      }
+.coaching-left{
+    padding-left: 40px;
+}
+.testimonals-section{
+     font-size: 25px;
+     width: 100%;
+     float: left;
+}
+.testimonals-left{
+    font-size: 20px;
+    float: left;
+}
+.testimonals-right{
+     font-size: 20px;
+     float: right;
+}
+/* phylosophy section - Starts  */
+.phylosophy-center {
+    font-size: 30px;
+    background-color: #101126;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+.phylosophy-center h2 {    
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+.phylosophy-center p {    
+    margin: 0 auto;
+    padding: 30px 0 25px;
+    font-size: 40px;
+    max-width: 630px;
+}
+.phylosophy-center button{
+    color: #fff;   
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 15px 30px;
+    background-color: transparent;
+}
+/* phylosophy section - Ends  */
+
+/* Contact Section - Starts */
+.field-row{
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+}                 
+form .field-label{
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+}                    
+form .input-field{
+    border: 1px solid #bab9b9;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: 300px;
+}
+form .textarea-field{
+    border: 1px solid #bab9b9;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 300px;
+}
+form .btn-submit{
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: 1px solid #bab9b9;
+    background-color: blue;
+    color: white;
+}   
+
+form .my-select{
+    border: 1px solid #bab9b9;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: 300px;
+} 
+/* Contact Section - Ends */ 
+.main-footer {
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    padding: 50px 25px;
+}
+.main-left{
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+.footer-right ul{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+}
+.footer-right li{
+    margin: 5px;
+}
+.footer-right p{
+    margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
